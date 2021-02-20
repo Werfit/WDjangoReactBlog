@@ -1,0 +1,25 @@
+// POSTS
+export const ADD_POST = 'ADD_POST'
+export const GET_POSTS = 'GET_POSTS'
+export const DELETE_POST = 'DEL_POST'
+export const UPDATE_POST = 'UPDATE_POST'
+
+// ERRORS
+export const GET_ERRORS = 'NEW_ERROR'
+export const ERROR_401 = 'ERROR_401'
+
+// AUTH SUCCESS
+export const USER_LOADED = 'USER_LOADED'
+export const USER_LOADING = 'USER_LOADING'
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS'
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS'
+
+// AUTH FAILED
+export const LOGIN_FAILED = 'LOGIN_FAILED'
+export const USER_LOADING_FAILED = 'USER_LOADING_FAILED'
+export const LOGOUT_FAILED = 'LOGOUT_FAILED'
+export const REGISTER_FAILED = 'REGISTER_FAILED'
+
+// PROFILE
+export const PROFILE_LOADED = 'PROFILE_LOADED'

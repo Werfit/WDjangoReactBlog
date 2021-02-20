@@ -1,0 +1,16 @@
+.alert-msg {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  transition: .3s;
+  bottom: -200px;
+}
+
+.alert-msg p {
+  margin: 0px;
+}
+
+.alert-to-show {
+  bottom: 10px;
+}
